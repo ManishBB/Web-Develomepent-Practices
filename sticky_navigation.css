@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    background: rgb(217, 159, 255);
+    height: 200px;
+    font-size: 25px;
+}
+
+h1{
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    width: auto;
+    align-items: center;
+}
+
+span{
+    color: white;
+    padding-left: 25px;
+}
+
+.item{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(238, 237, 237);
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
