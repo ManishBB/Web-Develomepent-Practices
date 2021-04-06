@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    padding: 15px;
+}
+
+.container1, .container2{
+    display: flex;
+    flex-direction: row;
+
+    height: 730px;
+    align-items: center;
+    align-content: space-around;
+}
+
+.sidecard{
+    padding: 10px;
+    margin: 15px;
+    background-color: white;
+    flex: 21%;
+    height: 600px;
+    justify-content: space-around;
+    justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    ;
+    overflow: auto;
+}
+
+.midcard{
+    padding: 10px;
+    margin: 15px;
+    background-color: white;
+    flex: 21%;
+    height: 700px;
+    justify-content: space-around;
+    justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    object-fit: fill;
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
+}
+
+.botton{
+    background-color: #ccc;
+    width: 100%;
+    height: 40px;
+    padding: 10px 5px;
+    text-align: center;
+}
